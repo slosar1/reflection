@@ -22,3 +22,52 @@ What I learned last week:
 
 10.) What the difference of input and raw input
 11.) How to use numbers and use math in python
+
+# End of week 3
+## 9/22/17
+What I learned last week:
+1.) Import math
+2.) Number = input("enter a number")
+3.) Intnumber = int(number)
+4.) Squareroot = math.sqrt(intnumber)
+5.) types of functions:
+	type, str, dir
+6.) string manipulation
+7.) reading material print function
+8.) input function
+	ex: name = input("what's your name?")
+	    print("nice to meet you + name + "!")
+	    age = input("your age?")
+	    print("so, you are already " + age + " years old, " + name+ "!")
+9.)  convert a python string to int and float
+	The code:
+
+	ex: str_a = '50'
+	    b = 10
+	    c = int(str_a0 + b
+	    print("the value of c = ",c)
+
+	The code of using float for converting a string:
+
+	ex: str_a = '50.85'
+	    b = 10.33
+	    c = float(str_a) + b
+	    print ("the value of c = ",c)
+	
+	The code:
+
+	ex: str_lst = ['1', '2', '3']
+	    int_lst = [int(x) for x in str_lst]
+	    print (int_lst)
+
+	The code for converting list items to float:
+
+	ex: str_lst = ['10.505', '2.3', '3.99']
+	    float_lst = [float(x) for x in str_lst]
+	    print (float_lst)
+
+	The code:
+
+	ex: str_a = '5,123,00'
+	    int_b = int(str_a.replace(',',''))
+	    print ("the integer value", int_b)
