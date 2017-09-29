@@ -71,3 +71,37 @@ What I learned last week:
 	ex: str_a = '5,123,00'
 	    int_b = int(str_a.replace(',',''))
 	    print ("the integer value", int_b)
+
+
+# End of Week 4
+##9/9/2017
+What I learned this past week:
+
+I learned a lot over this week, it has been challenging trying to figure out how to do some of the problems Mr. Gold gave me but he gave me
+the power to get it done and I did. Here is a list of what I learned during this week:
+
+1.) I learned how to use input a lot better using numbers
+	ex: 	number1 = input("give me one between 1-10:")
+		number2 = input("give me one between 1-10:")
+            	number1 = int(number1)
+        	number2 = int(number2)
+   		print(number1 + number2)
+ 		average = (number1 + number2 / 2)
+ 		print("your average is")
+ 		print(average)
+
+2.) how to use float and input in math
+
+	ex:  	a = float(input("enter a:"))
+ 		b = float(input("enter b:"))
+  		c = float(input("enter c:"))
+
+	 	x = -1 * b
+
+	  	product = x
+
+	  	print("your x is =:")
+  	 	print(x)
+
+
+and a lot more.
