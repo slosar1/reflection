@@ -105,3 +105,107 @@ the power to get it done and I did. Here is a list of what I learned during this
 
 
 and a lot more.
+
+# End of week 7 and 8
+## 10/27/17
+What I learned during the past two weeks:
+
+1.) I learned how to use while loops(here is an example):
+	for stumber in range(1,1000+1):
+	if stumber %3==0:
+		print("Burrito")
+	elif stumber %5==0:
+		print("Cheeto")
+	elif stumber %3==0 and stumber %5==0:
+		print("BurritoCheeto")
+	elif stumber %7==0:
+		print("Veto")
+	elif stumber %3==0 and stumber %7==0:
+		print("BurritoCheeto")
+	elif stumber %5==0 and stumber %7==0:
+		print("CheetoVeto")
+	elif stumber %3==0 and stumber %5==0 and stumber %7==0:
+		print("BurritoCheetoVeto")
+	else:
+		print(stumber)
+
+2.) I also learned how to import random, use var, with a while loop(ex):
+
+	import random
+
+var = 1
+secret = random.randint(1,1000+1)
+while var == 1 :
+
+
+	number = input("Please enter a number 1 through 1,000:")
+	number = int(number)
+
+	print(secret)
+	if(number > secret):
+		print("too high, not in range")
+	elif(number < secret):
+		print("too low, not in range")
+	if(number == secret):
+		print("you won!!!")
+		var = 0
+
+3.) I learned how to use count using a while loop(ex):
+
+	count = 0
+while(count < 10):
+	count = count+1
+while(count < 10):
+	print(count)
+print("Blastoof!")
+
+4.)  I learned how to us "if" better and how to use "input" better(ex):
+
+	temp = input("enter a temperature in fahrenheit")
+temp = int(temp)
+if(temp < 10.0):
+	print("it is cold")
+	temp = input("enter a temperature in fahrenheit")
+	temp = float(temp)
+print("ahh feels food")
+
+5.) I also learned how to change a word that the person entered to a specific word(ex):
+
+	story = input("Write a story:")
+first_string = story
+second_string = first_string.replace("the", "ermagherd")
+third_string = second_string.replace("a", "ayyyyyy")
+fourth_string = third_string.replace(".", "\a")
+print(first_string, second_string, third_string, fourth_string)
+
+6.) I also learned how to seperate someones name once typed in different lines(ex):
+
+	person = input("What is your Full name:")
+print("First Name", person)
+print("Middle Name", person)
+print("Last Name", person)
+
+input = ('First Name')
+print ('First Name' , str_('Middle Name"'))
+input = ('Middle Name')
+print = ('Middle Name',str_('Last Name'))
+input = ('Last Name')
+
+7.) I also learned how to use math and how to find an average(ex):
+
+	print("You will give me five numbers and then I will give you your average.")
+
+number1 = input("give me one number between 1-10:")
+number2 = input("give me one number between 1-10:")
+number3 = input("give me one number between 1-10:")
+number4 = input("give me one number between 1-10:")
+number5 = input("give me one number between 1-10:")
+number1 = int(number1)
+number2 = int(number2)
+number3 = int(number3)
+number4 = int(number4)
+number5 = int(number5)
+print(number1 + number2 + number3 + number4 + number5)
+average = (number1 + number2 + number3 + number4 + number5 / 5)
+print("your average is:")
+print(average)
