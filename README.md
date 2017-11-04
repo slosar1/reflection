@@ -209,3 +209,65 @@ print(number1 + number2 + number3 + number4 + number5)
 average = (number1 + number2 + number3 + number4 + number5 / 5)
 print("your average is:")
 print(average)
+
+
+# End of week 9
+## 11/03/17
+What I learned this week:
+
+1.) I learned a lot this week one main thing I learned wasusing range and if statements:
+
+for stumber in range(1,1000+1):
+	if stumber %3==0:
+		print("Burrito")
+	elif stumber %5==0:
+		print("Cheeto")
+	elif stumber %3==0 and stumber %5==0:
+		print("BurritoCheeto")
+	elif stumber %7==0:
+		print("Veto")
+	elif stumber %3==0 and stumber %7==0:
+		print("BurritoCheeto")
+	elif stumber %5==0 and stumber %7==0:
+		print("CheetoVeto")
+	elif stumber %3==0 and stumber %5==0 and stumber %7==0:
+		print("BurritoCheetoVeto")
+	else:
+		print(stumber)
+
+
+2.) I also learned how to use import random and using an while var loop:
+
+import random
+
+var = 1
+secret = random.randint(1,1000+1)
+while var == 1 :
+
+
+	number = input("Please enter a number 1 through 1,000:")
+	number = int(number)
+
+	print(secret)
+	if(number > secret):
+		print("too high, not in range")
+	elif(number < secret):
+		print("too low, not in range")
+	if(number == secret):
+		print("you won!!!")
+		var = 0
+
+3.) I also was able to figure out if I can figure out a number 1 through 1000 that the computer picked:
+
+while var == 1 :
+
+	number = input("Please enter a number between 1 and 1000:")
+	print(number)
+	if(guess < number):
+		print("is this right?")
+	elif(guess > number):
+		print("is this rihgt?")
+	elif(guess = number):
+		print("is this right?")
+
+4.) I also learned how to change words to numbers using the if statement formate and or using 4 while loops
