@@ -271,3 +271,55 @@ while var == 1 :
 		print("is this right?")
 
 4.) I also learned how to change words to numbers using the if statement formate and or using 4 while loops
+
+# End of week 10
+## 11/13/17
+What I learned this past week
+
+1.) I learned how to use def my_print ex:
+
+ef my_print(msg):
+        OKBLUE = '\03394m'
+        OKGREEN = '\033[92m'
+        WARNING = '\033[93m'
+        FAIL = '\033[91m'
+        print(WARNING + msg)
+
+my_print("hello class!")
+
+
+2.) I learned how to use def more:
+
+
+def hip(hop,hi):
+        return hop + hop +hi
+def foo():
+        return "This one"
+def bar():
+        print("well maybe")
+        return "that one"
+def ha(asdf):
+        if(asdf):
+                return hip(foo(),bar())
+        else:
+                return hip(bar(),foo())
+def push():
+        x = 10
+        har = ha(False)
+        dee = ha(True)
+        print(har,dee)
+
+push()
+
+
+
+3.) I learned how to use factorial numbers ex:
+
+factorialNumber = int(input("please enter the number to be converted"))
+answer = 1
+for multiplyMe in range(1,factorialNumber + 1):
+        answer = answer * multiplyMe
+print(answer)
+print(multiplyMe)
+
+
