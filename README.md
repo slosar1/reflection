@@ -440,3 +440,18 @@ It took me one week to figure how to set everything up and how to use it properl
 
 
  
+# week 13
+## 12/8/17
+What I learned this week:
+
+1.) I was able to create my own action figure on Pi, I would put my work 
+on here but it is on boas pi raspberry.
+
+2.) I am working on my google Friday and I am learning how to change a states
+name to time.
+
+3.) I am learning how to make my figure move I use different sets of 8x8
+pixels, I change the color and once I play it on my raspberry it is a action
+figure
+
+If i was able to log on to boas stuff I could show examples.
