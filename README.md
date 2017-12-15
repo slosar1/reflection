@@ -455,3 +455,88 @@ pixels, I change the color and once I play it on my raspberry it is a action
 figure
 
 If i was able to log on to boas stuff I could show examples.
+
+
+
+#Week 14
+##12/15/17
+What did we learn this week?
+
+1.) I learned how to animate my Rapberry Pi, example:
+
+This is in a while loop too!
+while True:
+	sense.set_pixels(entertain[0])
+	x,y,z = sense.get_accelerometer_raw().values()
+	if(x > 2 or y > 2 or z > 2):
+		animate(sense,entertain,0.5)
+	time.sleep(1)
+
+
+and this is my animation that I created that shows my character eating(this isn't all of it because I have a lot of them):
+
+	g, g, g, e, e, e, e, g,
+	g, g, g, e, l, l, e, e,
+	g, g, g, w, l, w, l, e,
+	g, g, g, l, l, l, l, e,
+	c, g, g, r, y, y, r, b,
+	c, g, g, g, b, b, b, o,
+	c, g, g, l, r, r, r, l,
+	c, g, g, b, g, o, b, o
+	],[
+	g, g, g, e, e, e, e, g,
+        g, g, g, e, l, l, e, e,
+        g, g, g, w, l, w, l, e,
+        g, g, g, l, l, l, l, e,
+        c, c, g, r, y, y, r, b,
+        g, c, g, g, b, b, b, o,
+        g, c, g, l, r, r, r, l,
+        g, c, g, b, g, o, b, o
+	],[
+	g, g, g, e, e, e, e, g,
+        g, g, g, e, l, l, e, e,
+        g, g, g, w, l, w, l, e,
+        g, g, g, l, l, l, l, e,
+        c, c, g, r, y, y, r, b,
+        g, c, g, g, b, b, b, o,
+        g, c, g, l, r, r, r, l,
+        g, c, g, b, g, o, b, o
+
+2.) I have learned that I can creat supperman or any other characters, ex:
+
+	g, g, e, e, e, e, g, g,
+	g, e, e, l, l, e, g, g,
+	g, e, l, w, l, w, g, g,
+	g, e, l, l, l, l, g, g,
+	g, b, r, y, y, r, g, g,
+	b, o, b, b, b, g, b, g,
+	o, l, r, r, r, l, g, g,
+	o, o, b, o, g, b, g, g
+
+this is a picture of supperman in a 8x8 pixel screen, then  just add more 8x8 pixel screens. I then use this formula to run it so it seems like it is
+an action figure:
+
+def walking():
+	for i in range(10):
+		sense.set_pixels(pet1)
+		time.sleep(0.5)
+		sense.set_pixels(pet2)
+		time.sleep(0.5)
+
+sense.clear()
+
+while True:
+	sense.set_pixels(entertain[0])
+	x,y,z = sense.get_accelerometer_raw().values()
+	if(x > 2 or y > 2 or z > 2):
+		animate(sense,entertain,0.5)
+	time.sleep(1)
+
+
+this is the formula up above.
+
+3.) I also learned about Net Neutrality:
+
+It is a system on how our internet works. It keeps us protected from others hacking us, lets us access whatever we want, and we don't have to pay 
+any companies to use the internet. Then yesterday it had been removed, we now don't know if we are going to start paying for social media or just 
+to visit google. This was not the smartest decision we had made, this is going to set off a lot of people angry.
