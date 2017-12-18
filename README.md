@@ -272,8 +272,8 @@ while var == 1 :
 
 4.) I also learned how to change words to numbers using the if statement formate and or using 4 while loops
 
-# End of week 10
-## 11/13/17
+#End of week 10
+##11/13/17
 What I learned this past week
 
 1.) I learned how to use def my_print ex:
@@ -440,7 +440,7 @@ It took me one week to figure how to set everything up and how to use it properl
 
 
  
-# week 13
+# End of week 13
 ## 12/8/17
 What I learned this week:
 
@@ -458,8 +458,8 @@ If i was able to log on to boas stuff I could show examples.
 
 
 
-#Week 14
-##12/15/17
+# Week 14
+## 12/15/17
 What did we learn this week?
 
 1.) I learned how to animate my Rapberry Pi, example:
