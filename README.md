@@ -540,3 +540,74 @@ this is the formula up above.
 It is a system on how our internet works. It keeps us protected from others hacking us, lets us access whatever we want, and we don't have to pay 
 any companies to use the internet. Then yesterday it had been removed, we now don't know if we are going to start paying for social media or just 
 to visit google. This was not the smartest decision we had made, this is going to set off a lot of people angry.
+
+
+# Week Before Finals
+## 1-12-18
+What I did and learned this Week
+
+I learned how to do variables, conditionals, Iterations, Functions
+
+example of a variable: 
+
+import math
+
+seconds = int(input("give me a large number in seconds:"))
+
+
+minutes = int(seconds%3600/60)
+hours = int(seconds/3600)
+seconds = int(seconds%3600%60)
+
+
+print ("With", seconds,"second(s) there are", minutes,"minute(s) and there are"$
+
+
+
+another example:
+
+import math
+
+a  = input("what is the length of an edge:")
+area = 3.0 * math.sqrt((25.0 + 10.0) * math.sqrt(5.0)) * float(a)**2
+print(area)
+
+I am also working on my google friday, I am not done with it but I will create a converter for timezone
+
+
+
+state = input("enter what state you are currently in (USA ONLY):")
+
+
+states = ['Alabama','Alaska','Arizona','Arkansas','California','Colorado',
+         'Connecticut','Delaware','Florida','Georgia','Hawaii','Idaho',
+         'Illinois','Indiana','Iowa','Kansas','Kentucky','Louisiana',
+         'Maine' 'Maryland','Massachusetts','Michigan','Minnesota',
+         'Mississippi', 'Missouri','Montana','Nebraska','Nevada',
+         'New Hampshire','New Jersey','New Mexico','New York',
+         'North Carolina','North Dakota','Ohio',
+         'Oklahoma','Oregon','Pennsylvania','Rhode Island',
+         'South  Carolina','South Dakota','Tennessee','Texas','Utah',
+         'Vermont','Virginia','Washington','West Virginia',
+         'Wisconsin','Wyoming'
+]
+
+
+print(state)
+
+$ginia, West Virginia
+
+
+from datetime import datetime
+zone = {
+        "Eastern" : -5,
+        "Central" : -6,
+        "Mountain" : -7,
+        "Pacific" : -8,
+        "Alaskan" : -9,
+        "Hawaiin" : -10
+}
+
+
+
+
